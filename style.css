@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-color: #ffffff;
+    background-image: url(https://itc.ua/wp-content/uploads/2022/07/top10-films-english-1-jul-18-jul-24-2022.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.container-fluid{
+    background-color: rgb(116, 143, 218);
+}
+.navbar-expand-lg{
+    background-color: rgb(116, 143, 218);
+}
+.btn-header{
+    background-color: rgb(71, 159, 186);
+    margin-left: 50px;
+    border: none;
+}
+.modal-body{
+    display: flex;
+    flex-direction: column;
+}
+.modal-content{
+    background-color: rgb(53, 100, 231);
+}
+.form-header{
+    background-color: transparent;
+    width: 400px;
+    margin-top: 10px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #fff;
+}
+.form-header:focus{
+    background-color: transparent;
+}
+.label__header{
+}
+.modal-title{
+    text-align: center;
+}
+.form-check{
+    margin: 10px 0px;
+}
+.accordion-button{
+    background-color: rgba(144, 203, 221, 0.76);
+    width: 400px;
+    margin: 0 auto;
+}
+.accordion-button:hover{
+    background-color: rgb(255, 0, 0);
+    transition: 1s;
+}
+.img__navbar{
+    height: 70px;
+}
+.accordion{
+    position: absolute;
+    top: 200px;
+}
+.form-check-label{
+    color: #fff;
+    text-transform: uppercase;
+}
+.card{
+    position: absolute;
+    top: 450px;
+}
